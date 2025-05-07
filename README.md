@@ -11,7 +11,7 @@ From container-driven DevOps pipelines to AI-powered editorial workflows, I’ve
 | **Content Ops as product** | Treating content like any other mission-critical system gives GTM teams velocity and insight. | Building modular frameworks, governance models, and KPI dashboards in Notion. |
 | **AI-accelerated storytelling** | Large language models free writers to think instead of thrash. | Prototyping custom GPTs that cut research time by 40% and surface data-driven angles. |
 | **FinOps meets narrative** | Cloud spend only changes when the C-suite cares. Stories turn cost data into decisions. |
-| **Developer experience (DX)** | Devs ignore marketing fluff—until it unblocks them. | Shipping example-driven docs and containerized demos that run in <60 seconds. |
+
 
 ---
 
