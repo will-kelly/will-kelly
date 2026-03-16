@@ -1,44 +1,147 @@
-# 👋 Hi, I’m **Will Kelly**
+# Will Kelly
 
-I turn complex technology into narratives that move markets and unblock teams.  
-From container-driven DevOps pipelines to AI-powered editorial workflows, I’ve spent my career building content engines that **ship faster, sell smarter, and scale without drama**.
+## Generative AI Builder | ContentOps Strategist | Technical Writer
 
----
+I build practical generative-AI systems that help organizations **create, govern, and activate knowledge at scale.**
 
-## 🧭 What I’m focused on next
-| Theme | Why it matters | How I’m pushing it forward |
-|-------|----------------|---------------------------|
-| **Content Ops as product** | Treating content like any other mission-critical system gives GTM teams velocity and insight. | Building modular frameworks, governance models, and KPI dashboards in Notion. |
-| **AI-accelerated storytelling** | Large language models free writers to think instead of thrash. | Prototyping custom GPTs that cut research time by 40% and surface data-driven angles. |
-| **FinOps meets narrative** | Cloud spend only changes when the C-suite cares. Stories turn cost data into decisions. |
+My work sits at the intersection of:
 
+- Generative AI
+- Claude and custom GPT systems
+- Content operations (ContentOps)
+- Documentation and knowledge systems
+- Product marketing enablement
 
----
-
-## 🛠️ Core strengths
-- **Content Strategy & GTM Enablement** – Map stories to buyer pain and pipeline stages, not vanity metrics.  
-- **Editorial Workflow Automation** – From CI/CD for Markdown to AI linting, I keep content shippable.  
-- **Notion at Scale** – Architected multi-team wikis, content calendars, and KPI hubs that survive real usage.  
-- **Product Marketing** – Translate features into differentiated positioning and field-ready collateral.  
-- **Thought Leadership** – 300+ bylines in *CIO.com*, *TechTarget*, *InfoWorld*, and more.
+Most of the projects here explore how AI can move beyond novelty and become **operational infrastructure for how teams think, write, and ship knowledge.**
 
 ---
 
+## What I Build
 
-## 🤝 Let’s collaborate
-I’m open to **full-time or fractional** roles where content is a growth lever:
-- **Content Strategy / Ops Leadership**
-- **Product Marketing for DevOps, AI, or Cloud SaaS**
+### Custom AI systems for knowledge work
 
-If you need someone who can **diagnose your content bottlenecks, architect a fix, and ship it**, let’s talk.
+I design and prototype specialized GPT and Claude systems that help teams perform complex knowledge tasks.
 
-> **Email:** will [at] willkelly [dot] com  
-> **LinkedIn:** [linkedin.com/in/willkelly](https://www.linkedin.com/in/willkelly)
+Examples include:
+
+- AI tools for product messaging and positioning
+- Self-editing assistants for writers
+- Competitive intelligence analyzers
+- Documentation and knowledge copilots
+- Content governance tools
+
+These systems are designed as **repeatable workflows**, not just prompts.
 
 ---
 
-*Forward-looking, bias for action, and allergic to content theater.  
-If that resonates, star a repo—or drop a note.*
+### Claude experimentation and developer enablement
+
+I actively explore how Claude and other large language models integrate into developer workflows.
+
+Areas of experimentation include:
+
+- AI-assisted debugging
+- developer documentation workflows
+- prompt-to-workflow systems
+- AI agents embedded into engineering environments
+
+The goal is simple:  
+**AI should live inside real work, not just chat interfaces.**
+
+---
+
+### ContentOps and knowledge systems
+
+Many of my projects focus on fixing a problem most companies ignore.
+
+**Content chaos.**
+
+Organizations struggle with:
+
+- fragmented documentation
+- inconsistent messaging
+- content decay
+- knowledge silos
+- slow onboarding
+
+My work explores how AI and structured workflows can create **content systems that scale across marketing, documentation, product, and enablement teams.**
+
+---
+
+## Featured areas of work
+
+### Generative AI systems
+
+- Custom GPT architectures
+- Claude project workflows
+- AI-assisted writing and editing
+- structured prompt engineering
+
+### Content operations
+
+- documentation strategy
+- content governance frameworks
+- enablement content pipelines
+- knowledge system architecture
+
+### Developer enablement
+
+- AI-assisted debugging workflows
+- developer knowledge systems
+- documentation infrastructure
+
+---
+
+## Philosophy
+
+AI adoption fails when organizations treat it like a prompt experiment.
+
+The real opportunity is building **repeatable systems** that combine:
+
+- AI
+- documentation
+- structured workflows
+- operational discipline
+
+When done correctly, AI becomes a **force multiplier for knowledge work.**
+
+---
+
+## Current focus
+
+I am actively building systems around:
+
+- AI-enhanced documentation operations
+- custom GPT workflows for content teams
+- Claude-based knowledge assistants
+- AI-driven ContentOps frameworks
+
+---
+
+## Connect with me
+
+LinkedIn  
+https://linkedin.com/in/willkelly
+
+GitHub  
+https://github.com/will-kelly
+
+---
+
+## What this GitHub represents
+
+This repository ecosystem is a **working lab for applied generative AI.**
+
+It documents how AI can transform:
+
+- documentation
+- product marketing
+- developer enablement
+- knowledge operations
+
+The goal is not experimentation for its own sake.
+
+The goal is **AI systems that actually improve how organizations work.**
 
 <!---
 will-kelly/will-kelly is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
