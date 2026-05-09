@@ -1,7 +1,5 @@
 # Will Kelly
 
-# Will Kelly
-
 **Technical content strategist focused on AI enablement** | Fractional content operations consultant | Diagnostic frameworks for enterprise knowledge systems
 
 Based in Northern Virginia | [LinkedIn](https://linkedin.com/in/willkelly) | [Newsletter](https://willkelly.substack.com) | [Medium](https://willkelly.medium.com)
