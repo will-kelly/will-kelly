@@ -1,149 +1,158 @@
 # Will Kelly
 
-## Generative AI Builder | ContentOps Strategist | Technical Writer
+# Will Kelly
 
-I build practical generative-AI systems that help organizations **create, govern, and activate knowledge at scale.**
+**Technical content strategist focused on AI enablement** | Fractional content operations consultant | Diagnostic frameworks for enterprise knowledge systems
 
-My work sits at the intersection of:
-
-- Generative AI
-- Claude and custom GPT systems
-- Content operations (ContentOps)
-- Documentation and knowledge systems
-- Product marketing enablement
-
-Most of the projects here explore how AI can move beyond novelty and become **operational infrastructure for how teams think, write, and ship knowledge.**
+Based in Northern Virginia | [LinkedIn](https://linkedin.com/in/willkelly) | [Newsletter](https://willkelly.substack.com) | [Medium](https://willkelly.medium.com)
 
 ---
 
-## What I Build
+## What I build
 
-### Custom AI systems for knowledge work
+I create **diagnostic frameworks, productized consulting IP, and Claude-powered workflows** that help enterprise organizations fix broken documentation, adopt AI pragmatically, and operationalize knowledge at scale.
 
-I design and prototype specialized GPT and Claude systems that help teams perform complex knowledge tasks.
+My work targets **content ops leads, IT managers, fractional consultants, and CIOs/CTOs** who need to move past pilot projects and into sustainable practices.
 
-Examples include:
+### Three core areas
 
-- AI tools for product messaging and positioning
-- Self-editing assistants for writers
-- Competitive intelligence analyzers
-- Documentation and knowledge copilots
-- Content governance tools
+**AI enablement and diagnostics**  
+Structured assessment frameworks that surface AI readiness gaps, adoption blockers, and governance friction without the vendor theater. Grounded in 15+ years of enterprise tech experience.
 
-These systems are designed as **repeatable workflows**, not just prompts.
+**Productized consulting IP**  
+Documentation debt audits, AI readiness checklists, Notion migration playbooks, and content ops maturity scorecards—packaged as repeatable, sellable assets on Gumroad and Notion Marketplace.
 
----
-
-### Claude experimentation and developer enablement
-
-I actively explore how Claude and other large language models integrate into developer workflows.
-
-Areas of experimentation include:
-
-- AI-assisted debugging
-- developer documentation workflows
-- prompt-to-workflow systems
-- AI agents embedded into engineering environments
-
-The goal is simple:  
-**AI should live inside real work, not just chat interfaces.**
+**Claude project blueprints and prompt engineering**  
+System prompts, knowledge graph builders, documentation health agents, and content pipeline automations designed for practitioners, not marketers. Open-sourced in the [ContentOps](https://github.com/will-kelly/ContentOps) repository.
 
 ---
 
-### ContentOps and knowledge systems
+## Featured frameworks and products
 
-Many of my projects focus on fixing a problem most companies ignore.
+### Open source (ContentOps repository)
 
-**Content chaos.**
+- **30-60-90-Day Content Ops Plan** – Day-by-day playbook for standing up content operations at startups or enterprises
+- **GTM Content Ops Accelerator Framework** – Aligns content production to pipeline stages so marketing isn't publishing blind
+- **Content Lifecycle Checklist** – Ensures every asset gets versioned, reviewed, and repurposed
+- **Case Study Framework** – Extracts a compelling story even when customers won't share metrics
+- **Tech Storytelling Strategy Guide** – Narrative frameworks that land with both technical and executive buyers
+- **Custom GPT governance playbook** – Prevents AI tool sprawl while maintaining practitioner autonomy
+- **Multi-generational messaging guide** – Frames technical complexity for CIO/CTO/practitioner audiences
+- **Notion editorial workflow** – Lightweight publishing pipeline built entirely in Notion
 
-Organizations struggle with:
+### Gumroad products (productized IP)
 
-- fragmented documentation
-- inconsistent messaging
-- content decay
-- knowledge silos
-- slow onboarding
+- AI pilot readiness checklist
+- Documentation debt audit framework
+- Confluence-to-Notion migration pre-flight assessment
+- Claude Project blueprint packs (content ops, doc triage, wiki health)
+- Content ops maturity scorecard (React-based diagnostic)
 
-My work explores how AI and structured workflows can create **content systems that scale across marketing, documentation, product, and enablement teams.**
+### Notion Marketplace templates
 
----
-
-## Featured areas of work
-
-### Generative AI systems
-
-- Custom GPT architectures
-- Claude project workflows
-- AI-assisted writing and editing
-- structured prompt engineering
-
-### Content operations
-
-- documentation strategy
-- content governance frameworks
-- enablement content pipelines
-- knowledge system architecture
-
-### Developer enablement
-
-- AI-assisted debugging workflows
-- developer knowledge systems
-- documentation infrastructure
+- Content operations hub
+- Editorial calendar and brief builder
+- Consulting deliverable tracker
+- Client knowledge graph
 
 ---
 
 ## Philosophy
 
-AI adoption fails when organizations treat it like a prompt experiment.
+**Sell the diagnostic, not the solution.**
 
-The real opportunity is building **repeatable systems** that combine:
+AI adoption fails when organizations treat it like a prompt experiment. The real opportunity is building repeatable systems that combine AI, documentation, structured workflows, and operational discipline.
 
-- AI
-- documentation
-- structured workflows
-- operational discipline
+Documentation debt is often a **data problem** masquerading as a technology problem. The fix isn't a new tool—it's governance, metadata discipline, and workflows that force prioritization.
 
-When done correctly, AI becomes a **force multiplier for knowledge work.**
+**Pattern recognition beats vendor theater.** My writing cuts through hype to surface what's actually breaking in content operations, knowledge management, and AI adoption.
+
+---
+
+## What's in this repository
+
+This GitHub account documents applied generative AI work across:
+
+- **Diagnostic frameworks** – Self-serve tools for assessing content ops maturity, documentation health, and AI readiness
+- **Prompt libraries** – System prompts, few-shot examples, and Claude Project configurations built from consulting work
+- **Operationalized workflows** – Content pipelines, knowledge graphs, and governance models packaged for reuse
+- **Case studies and lessons** – Real patterns from standing up content systems at Docker, GDIT, CDW, and emerging tech companies
+
+The ContentOps repository is the canonical home for all open-source frameworks, playbooks, and templates.
+
+---
+
+## Experience and proof points
+
+**15+ years in enterprise technology content:**
+- Built GTM content operations at Docker (standout proof point: consolidated fragmented output across three teams into a single pipeline, increasing asset reuse 40%)
+- Content strategy roles at GDIT/CSRA (B2G/federal IT technical messaging)
+- Technical writing and architecture at CDW, plus dozens of bylines in trade publications
+
+**Specialist in documentation dysfunction:**
+- Developed proprietary CTRL+ALT+SharePoint governance methodology (15+ deployments)
+- Created documentation debt diagnostic that surfaces cost impact and prioritization urgently for IT leadership
+- Consulted on Confluence-to-Notion migrations, content intake systems, and editorial governance
+
+**AI enablement practitioner:**
+- Building Claude Project architectures for content production, knowledge ops, and consulting delivery
+- Designing diagnostics that surface adoption blockers before rollout (not after)
+- Created reusable prompt engineering libraries and system prompts for operations teams
 
 ---
 
 ## Current focus
 
-I am actively building systems around:
+Building and selling a catalog of digital products—diagnostic checklists, Notion templates, and Claude Project blueprints—that practitioners can drop into their orgs immediately. Anti-vendor-theater positioning: these are tools for people who actually have to do the work.
 
-- AI-enhanced documentation operations
-- custom GPT workflows for content teams
-- Claude-based knowledge assistants
-- AI-driven ContentOps frameworks
+Actively consulting with fractional clients on content ops maturity, documentation debt, and AI readiness. Building the proof points that land the next full-time role in AI enablement, content strategy, or technical marketing.
 
 ---
 
-## Connect with me
+## How to use this repository
 
-LinkedIn  
-https://linkedin.com/in/willkelly
+**Starting a content ops practice?**  
+Fork the [ContentOps](https://github.com/will-kelly/ContentOps) repository, pick the framework you need, and adapt.
 
-GitHub  
-https://github.com/will-kelly
+**Looking for prompt libraries or Claude Project blueprints?**  
+Browse the project folders here. Most are documented with use cases and integration notes.
+
+**Interested in the diagnostic frameworks?**  
+The Gumroad catalog has pre-built, editable versions packaged for client delivery. The open-source versions in this repository are the canonical source.
+
+**Building your own content operations system?**  
+Start with the 30-60-90-Day plan, then layer in the intake form, lifecycle checklist, and editorial workflow. Everything is designed to work together.
 
 ---
 
-## What this GitHub represents
+## Connect
 
-This repository ecosystem is a **working lab for applied generative AI.**
+- **Newsletter (subscriber acquisition focus):** [Will's Newsletter](https://willkelly.substack.com)
+- **LinkedIn (primary job search channel):** [linkedin.com/in/willkelly](https://linkedin.com/in/willkelly)
+- **Medium blog:** [willkelly.medium.com](https://willkelly.medium.com)
+- **GitHub:** You're here.
 
-It documents how AI can transform:
+---
 
-- documentation
-- product marketing
-- developer enablement
-- knowledge operations
+## License and reuse
 
-The goal is not experimentation for its own sake.
+All repositories in this account operate under one of two licensing models:
 
-The goal is **AI systems that actually improve how organizations work.**
+**CC0-1.0 (no rights reserved)**  
+Frameworks, templates, checklists, and diagnostic tools. Use, fork, remix, commercialize, or adapt without attribution or permission. Includes: ContentOps playbook, Notion templates, prompt libraries, and educational materials.
 
-<!---
-will-kelly/will-kelly is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+**MIT License (permissive)**  
+Code repositories, Claude Projects, and technical implementations. Use freely in personal and commercial projects with minimal restrictions. Includes: prompt engineering libraries, workflow code, and system prompt repositories.
+
+### Reuse guidelines
+
+- **Using these in a client engagement?** Go ahead. No credit required, no permission needed.
+- **Selling a productized version?** Absolutely. That's the whole point.
+- **Publishing a modified version?** Fine. Attribution is nice but not required.
+- **Building a course or training around these frameworks?** Perfect. That's exactly what they're designed for.
+
+The goal is maximum velocity for practitioners. If something is useful, use it. If you improve it, consider contributing back, but no obligation.
+
+---
+
+*Last updated: May 2026*
