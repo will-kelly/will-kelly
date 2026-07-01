@@ -1,14 +1,17 @@
 name: Deploy site to GitHub Pages
 
 # Publishes the static POC site (index.html, styles.css, app.js at repo root).
-# Runs on the default branch and on the POC branch so the site can go live
-# before the PR is merged. Auto-enables Pages on first run via configure-pages.
+#
+# ONE-TIME SETUP (required once, in the browser):
+#   Settings -> Pages -> Build and deployment -> Source: "GitHub Actions"
+# The Actions token cannot enable Pages for the first time via API, so this
+# switch must be flipped manually once. After that, every push to main (and
+# manual "Run workflow") deploys automatically.
 
 on:
   push:
     branches:
       - main
-      - claude/willkelly-poc-svibpf
   workflow_dispatch:
 
 permissions:
