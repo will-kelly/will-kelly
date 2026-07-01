@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Will Kelly — AI Enablement &amp; Content Operations</title>
+  <meta name="description" content="Technical content strategist focused on AI enablement. Diagnostic frameworks, productized consulting IP, and Claude-powered workflows for enterprise knowledge systems." />
+  <meta name="author" content="Will Kelly" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Will Kelly — AI Enablement &amp; Content Operations" />
+  <meta property="og:description" content="Sell the diagnostic, not the solution. Frameworks and Claude-powered workflows that help enterprises fix broken documentation and adopt AI pragmatically." />
+  <meta property="og:url" content="https://willkelly.com" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1220'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%23ffb020' text-anchor='middle'%3EWK%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">WK</span>
+        <span class="brand-name">Will Kelly</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#work">What I build</a></li>
+        <li><a href="#diagnostic">Diagnostic</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#proof">Proof</a></li>
+        <li><a class="nav-cta" href="#contact">Work with me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">AI enablement &middot; Content operations &middot; Northern Virginia</p>
+        <h1>Sell the diagnostic,<br /><span class="accent">not the solution.</span></h1>
+        <p class="lede">
+          I build diagnostic frameworks, productized consulting IP, and Claude-powered
+          workflows that help enterprise teams fix broken documentation, adopt AI
+          pragmatically, and operationalize knowledge at scale &mdash; without the vendor theater.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#diagnostic">Take the 2-minute AI readiness check</a>
+          <a class="btn btn-ghost" href="#contact">Book a working session</a>
+        </div>
+        <ul class="hero-stats" aria-label="Track record">
+          <li><strong>15+</strong><span>years in enterprise tech content</span></li>
+          <li><strong>40%</strong><span>asset reuse lift at Docker</span></li>
+          <li><strong>15+</strong><span>governance deployments</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section id="work" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">What I build</p>
+          <h2>Three core areas, one operating principle</h2>
+          <p class="section-sub">
+            AI adoption fails when organizations treat it like a prompt experiment. The real
+            opportunity is repeatable systems that combine AI, documentation, structured
+            workflows, and operational discipline.
+          </p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">◎</div>
+            <h3>AI enablement &amp; diagnostics</h3>
+            <p>
+              Structured assessments that surface AI readiness gaps, adoption blockers, and
+              governance friction &mdash; grounded in 15+ years of enterprise experience, not hype.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">▤</div>
+            <h3>Productized consulting IP</h3>
+            <p>
+              Documentation debt audits, AI readiness checklists, Notion migration playbooks,
+              and maturity scorecards &mdash; packaged as repeatable, sellable assets.
+            </p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">⌘</div>
+            <h3>Claude blueprints &amp; prompts</h3>
+            <p>
+              System prompts, knowledge-graph builders, documentation-health agents, and content
+              pipeline automations designed for practitioners &mdash; not marketers.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DIAGNOSTIC -->
+    <section id="diagnostic" class="section section-alt">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Live diagnostic</p>
+          <h2>AI &amp; documentation readiness check</h2>
+          <p class="section-sub">
+            A taste of how I work: answer six questions and get an instant, honest read on where
+            your content operation stands &mdash; and what to fix first. No email wall.
+          </p>
+        </header>
+
+        <div class="diagnostic" id="diagnostic-app" data-diagnostic>
+          <form class="diagnostic-form" id="diagnostic-form">
+            <ol class="questions" id="questions"><!-- injected by app.js --></ol>
+            <div class="diagnostic-actions">
+              <button type="button" class="btn btn-primary" id="scoreBtn">See my readiness score</button>
+              <button type="reset" class="btn btn-ghost" id="resetBtn">Reset</button>
+            </div>
+          </form>
+
+          <div class="diagnostic-result" id="result" hidden aria-live="polite">
+            <div class="gauge">
+              <div class="gauge-num"><span id="scoreValue">0</span><small>/ 100</small></div>
+              <div class="gauge-bar"><div class="gauge-fill" id="gaugeFill"></div></div>
+              <p class="gauge-tier" id="scoreTier"></p>
+            </div>
+            <div class="result-body">
+              <h3 id="resultHeadline">Your readiness read</h3>
+              <p id="resultSummary"></p>
+              <ul id="resultActions" class="result-actions"></ul>
+              <a class="btn btn-primary" href="#contact">Turn this into a plan &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <p class="fine-print">
+          Prototype scoring model for demonstration. The production diagnostic maps to a
+          weighted content-ops maturity rubric refined across client engagements.
+        </p>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Featured frameworks &amp; products</p>
+          <h2>Tools for people who actually do the work</h2>
+        </header>
+
+        <div class="product-grid">
+          <div class="product-col">
+            <h3 class="col-title">Open source &mdash; ContentOps</h3>
+            <ul class="product-list">
+              <li><span>30-60-90-Day Content Ops Plan</span><em>Playbook</em></li>
+              <li><span>GTM Content Ops Accelerator</span><em>Framework</em></li>
+              <li><span>Content Lifecycle Checklist</span><em>Checklist</em></li>
+              <li><span>Case Study Framework</span><em>Template</em></li>
+              <li><span>Custom GPT governance playbook</span><em>Governance</em></li>
+            </ul>
+          </div>
+          <div class="product-col">
+            <h3 class="col-title">Gumroad &mdash; productized IP</h3>
+            <ul class="product-list">
+              <li><span>AI pilot readiness checklist</span><em>Diagnostic</em></li>
+              <li><span>Documentation debt audit framework</span><em>Audit</em></li>
+              <li><span>Confluence &rarr; Notion pre-flight</span><em>Migration</em></li>
+              <li><span>Claude Project blueprint packs</span><em>Blueprints</em></li>
+              <li><span>Content ops maturity scorecard</span><em>React tool</em></li>
+            </ul>
+          </div>
+          <div class="product-col">
+            <h3 class="col-title">Notion Marketplace</h3>
+            <ul class="product-list">
+              <li><span>Content operations hub</span><em>Template</em></li>
+              <li><span>Editorial calendar &amp; brief builder</span><em>Template</em></li>
+              <li><span>Consulting deliverable tracker</span><em>Template</em></li>
+              <li><span>Client knowledge graph</span><em>Template</em></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY -->
+    <section class="section section-quote">
+      <div class="wrap narrow">
+        <blockquote>
+          <p>
+            &ldquo;Documentation debt is often a <strong>data problem</strong> masquerading as a
+            technology problem. The fix isn&rsquo;t a new tool &mdash; it&rsquo;s governance, metadata
+            discipline, and workflows that force prioritization.&rdquo;
+          </p>
+          <cite>Pattern recognition beats vendor theater.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section id="proof" class="section section-alt">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Experience &amp; proof points</p>
+          <h2>Fifteen years fixing content dysfunction</h2>
+        </header>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-org">Docker</span>
+            <p>Built GTM content operations; consolidated fragmented output across three teams into a single pipeline, lifting asset reuse <strong>40%</strong>.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-org">GDIT / CSRA</span>
+            <p>Content strategy for B2G / federal IT &mdash; technical messaging in high-compliance environments.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-org">CDW</span>
+            <p>Technical writing and architecture, plus dozens of trade-publication bylines.</p>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-org">Independent</span>
+            <p>Proprietary CTRL+ALT+SharePoint governance methodology across <strong>15+</strong> deployments; Confluence-to-Notion migrations and editorial governance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-cta">
+      <div class="wrap narrow center">
+        <p class="kicker light">Current focus</p>
+        <h2>Building the proof points &mdash; and taking on fractional work</h2>
+        <p class="section-sub light">
+          Actively consulting on content ops maturity, documentation debt, and AI readiness.
+          If you need to move past pilot projects into sustainable practice, let&rsquo;s talk.
+        </p>
+        <div class="hero-cta center">
+          <a class="btn btn-primary" href="mailto:will@willkelly.com?subject=Working%20session%20inquiry">Email will@willkelly.com</a>
+          <a class="btn btn-ghost" href="https://linkedin.com/in/willkelly" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        </div>
+        <div class="links-row">
+          <a href="https://willkelly.substack.com" target="_blank" rel="noopener">Newsletter</a>
+          <a href="https://willkelly.medium.com" target="_blank" rel="noopener">Medium</a>
+          <a href="https://github.com/will-kelly/ContentOps" target="_blank" rel="noopener">ContentOps repo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year"></span> Will Kelly &middot; Northern Virginia</p>
+      <p class="footer-note">Anti-vendor-theater since day one.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
