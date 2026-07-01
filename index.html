@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will Kelly — Technical Content Strategist & AI Enablement Consultant</title>
+  <meta name="description" content="Diagnostic frameworks, productized consulting IP, and Claude-powered workflows that help enterprise teams fix broken documentation and adopt AI without the vendor theater." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Will Kelly — AI Enablement & Content Ops" />
+  <meta property="og:description" content="Sell the diagnostic, not the solution. Frameworks and tools for people who actually have to do the work." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://willkelly.com" />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">wk</span>
+        <span class="brand-name">Will Kelly</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#work">What I build</a></li>
+        <li><a href="#diagnostic">Diagnostic</a></li>
+        <li><a href="#catalog">Frameworks</a></li>
+        <li><a href="#proof">Proof</a></li>
+        <li><a href="#contact" class="nav-cta">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <p class="eyebrow">Technical content strategist · AI enablement</p>
+        <h1 class="hero-title">
+          I build <span class="accent">diagnostics</span>, not
+          <span class="strike">vendor theater</span>.
+        </h1>
+        <p class="hero-lede">
+          Fractional content operations consultant helping enterprise teams fix broken
+          documentation, adopt AI pragmatically, and operationalize knowledge at scale —
+          with frameworks and Claude-powered workflows built for the people who actually
+          have to do the work.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#diagnostic">Run the AI readiness diagnostic</a>
+          <a class="btn btn-ghost" href="#work">See what I build</a>
+        </div>
+        <ul class="hero-meta">
+          <li><strong>15+ yrs</strong> enterprise tech content</li>
+          <li><strong>Docker · GDIT · CDW</strong> content ops</li>
+          <li><strong>Northern Virginia</strong></li>
+        </ul>
+      </div>
+      <div class="hero-glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- WHAT I BUILD -->
+    <section class="section" id="work">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">What I build</p>
+          <h2>Three core areas, one operating principle</h2>
+          <p class="section-sub">
+            Repeatable systems that combine AI, documentation, structured workflows,
+            and operational discipline — packaged so a practitioner can drop them into
+            an org immediately.
+          </p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3>AI enablement &amp; diagnostics</h3>
+            <p>
+              Structured assessment frameworks that surface AI readiness gaps, adoption
+              blockers, and governance friction — without the vendor theater. Grounded in
+              15+ years of enterprise experience.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3>Productized consulting IP</h3>
+            <p>
+              Documentation debt audits, AI readiness checklists, Notion migration
+              playbooks, and content ops maturity scorecards — packaged as repeatable,
+              sellable assets on Gumroad and the Notion Marketplace.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3>Claude blueprints &amp; prompts</h3>
+            <p>
+              System prompts, knowledge-graph builders, documentation-health agents, and
+              content pipeline automations — designed for practitioners, not marketers.
+              Open-sourced in the ContentOps repo.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHY BANNER -->
+    <section class="section philosophy">
+      <div class="container philosophy-inner">
+        <blockquote>
+          <p>Sell the <span class="accent">diagnostic</span>, not the solution.</p>
+          <cite>
+            AI adoption fails when orgs treat it like a prompt experiment. Documentation
+            debt is usually a <em>data problem</em> masquerading as a technology problem —
+            the fix is governance, metadata discipline, and workflows that force
+            prioritization.
+          </cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DIAGNOSTIC -->
+    <section class="section" id="diagnostic">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Self-serve tool</p>
+          <h2>AI Readiness Diagnostic</h2>
+          <p class="section-sub">
+            A 6-question, sub-two-minute pulse check across the four dimensions that
+            actually decide whether an AI rollout sticks. No email wall. This is a live
+            demo of the kind of diagnostic I package for clients.
+          </p>
+        </div>
+
+        <div class="diagnostic" id="diagnostic-app">
+          <!-- progress -->
+          <div class="diag-progress" aria-hidden="true">
+            <div class="diag-progress-bar" id="diag-bar"></div>
+          </div>
+
+          <!-- question stage -->
+          <div class="diag-stage" id="diag-stage">
+            <div class="diag-step-meta">
+              <span id="diag-dimension" class="diag-dim">Documentation health</span>
+              <span id="diag-counter" class="diag-counter">Question 1 of 6</span>
+            </div>
+            <h3 class="diag-question" id="diag-question">Loading…</h3>
+            <div class="diag-options" id="diag-options" role="radiogroup" aria-label="Answer"></div>
+            <div class="diag-nav">
+              <button class="btn btn-ghost btn-sm" id="diag-back" disabled>Back</button>
+              <span class="diag-hint">Pick the answer that stings a little.</span>
+            </div>
+          </div>
+
+          <!-- result stage -->
+          <div class="diag-result" id="diag-result" hidden>
+            <div class="diag-score-ring" id="diag-ring">
+              <span class="diag-score-num" id="diag-score">0</span>
+              <span class="diag-score-label">/ 100</span>
+            </div>
+            <div class="diag-result-body">
+              <p class="diag-tier-label">Readiness tier</p>
+              <h3 class="diag-tier" id="diag-tier">—</h3>
+              <p class="diag-verdict" id="diag-verdict"></p>
+              <ul class="diag-recs" id="diag-recs"></ul>
+              <div class="diag-result-actions">
+                <button class="btn btn-ghost btn-sm" id="diag-restart">Retake</button>
+                <a class="btn btn-primary btn-sm" href="#contact">Turn this into a full audit</a>
+              </div>
+              <p class="diag-disclaimer">
+                Indicative only — the client version scores 30+ signals across documentation,
+                governance, workflow, and adoption, with a prioritized remediation roadmap.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CATALOG -->
+    <section class="section" id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Featured frameworks &amp; products</p>
+          <h2>Pre-built IP you can put to work today</h2>
+        </div>
+
+        <div class="catalog-grid">
+          <div class="catalog-col">
+            <h3 class="catalog-heading"><span class="tag tag-oss">Open source</span> ContentOps repository</h3>
+            <ul class="catalog-list">
+              <li><strong>30-60-90-Day Content Ops Plan</strong> — day-by-day playbook to stand up content operations.</li>
+              <li><strong>GTM Content Ops Accelerator</strong> — aligns production to pipeline stages.</li>
+              <li><strong>Content Lifecycle Checklist</strong> — every asset versioned, reviewed, repurposed.</li>
+              <li><strong>Case Study Framework</strong> — extracts a story even when customers won't share metrics.</li>
+              <li><strong>Tech Storytelling Guide</strong> — narratives that land with technical <em>and</em> executive buyers.</li>
+            </ul>
+          </div>
+
+          <div class="catalog-col">
+            <h3 class="catalog-heading"><span class="tag tag-paid">Gumroad</span> Productized IP</h3>
+            <ul class="catalog-list">
+              <li>AI pilot readiness checklist</li>
+              <li>Documentation debt audit framework</li>
+              <li>Confluence-to-Notion migration pre-flight</li>
+              <li>Claude Project blueprint packs</li>
+              <li>Content ops maturity scorecard <span class="muted">(React diagnostic)</span></li>
+            </ul>
+
+            <h3 class="catalog-heading catalog-heading-spaced"><span class="tag tag-notion">Notion</span> Marketplace templates</h3>
+            <ul class="catalog-list">
+              <li>Content operations hub</li>
+              <li>Editorial calendar &amp; brief builder</li>
+              <li>Consulting deliverable tracker</li>
+              <li>Client knowledge graph</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section class="section proof" id="proof">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Experience &amp; proof points</p>
+          <h2>Fifteen years untangling documentation dysfunction</h2>
+        </div>
+
+        <div class="proof-grid">
+          <article class="proof-item">
+            <h3>GTM content ops at Docker</h3>
+            <p>
+              Consolidated fragmented output across three teams into a single pipeline,
+              increasing asset reuse <strong>40%</strong>.
+            </p>
+          </article>
+          <article class="proof-item">
+            <h3>Federal / B2G at GDIT &amp; CSRA</h3>
+            <p>Content strategy roles driving technical messaging for government IT.</p>
+          </article>
+          <article class="proof-item">
+            <h3>Technical writing &amp; architecture at CDW</h3>
+            <p>Plus dozens of bylines across enterprise trade publications.</p>
+          </article>
+          <article class="proof-item">
+            <h3>CTRL+ALT+SharePoint methodology</h3>
+            <p>Proprietary governance framework deployed across <strong>15+</strong> engagements.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner">
+        <div class="contact-copy">
+          <p class="eyebrow">Current focus</p>
+          <h2>Consulting on content ops, documentation debt &amp; AI readiness</h2>
+          <p>
+            Actively working with fractional clients — and building the proof points for
+            the next full-time role in AI enablement, content strategy, or technical
+            marketing. If you have to move past pilots into sustainable practice, let's talk.
+          </p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:will@willkelly.com">
+            <span class="contact-link-label">Email</span>
+            <span class="contact-link-value">will@willkelly.com</span>
+          </a>
+          <a class="contact-link" href="https://linkedin.com/in/willkelly">
+            <span class="contact-link-label">LinkedIn <span class="muted">(primary job-search channel)</span></span>
+            <span class="contact-link-value">linkedin.com/in/willkelly</span>
+          </a>
+          <a class="contact-link" href="https://willkelly.substack.com">
+            <span class="contact-link-label">Newsletter</span>
+            <span class="contact-link-value">willkelly.substack.com</span>
+          </a>
+          <a class="contact-link" href="https://github.com/will-kelly">
+            <span class="contact-link-label">GitHub</span>
+            <span class="contact-link-value">github.com/will-kelly</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Will Kelly · Northern Virginia</p>
+      <p class="footer-note">Proof-of-concept site · Sell the diagnostic, not the solution.</p>
+    </div>
+  </footer>
+
+  <script src="assets/diagnostic.js" defer></script>
+  <script src="assets/main.js" defer></script>
+</body>
+</html>
