@@ -93,17 +93,48 @@
         <p class="section-head__note">
           Every entry carries a classification prefix — <span class="mono">AGT</span> agents,
           <span class="mono">FWK</span> frameworks, <span class="mono">IP</span> productized
-          assets, <span class="mono">TPL</span> templates. Filter to narrow the shelf.
+          assets, <span class="mono">TPL</span> templates. Filter or search to narrow the shelf,
+          and open any entry for how it works and when to use it.
         </p>
       </div>
 
-      <div class="filters" role="group" aria-label="Filter catalog by type">
-        <button class="chip is-active" data-filter="all" type="button">All</button>
-        <button class="chip" data-filter="agents" type="button">Claude agents</button>
-        <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
-        <button class="chip" data-filter="ip" type="button">Productized IP</button>
-        <button class="chip" data-filter="templates" type="button">Templates</button>
+      <div class="catalog__controls">
+        <div class="filters" role="group" aria-label="Filter catalog by type">
+          <button class="chip is-active" data-filter="all" type="button">
+            All <span class="chip__n" data-count="all"></span>
+          </button>
+          <button class="chip" data-filter="agents" type="button">
+            Claude agents <span class="chip__n" data-count="agents"></span>
+          </button>
+          <button class="chip" data-filter="frameworks" type="button">
+            Frameworks <span class="chip__n" data-count="frameworks"></span>
+          </button>
+          <button class="chip" data-filter="ip" type="button">
+            Productized IP <span class="chip__n" data-count="ip"></span>
+          </button>
+          <button class="chip" data-filter="templates" type="button">
+            Templates <span class="chip__n" data-count="templates"></span>
+          </button>
+        </div>
+        <div class="search">
+          <label class="search__label" for="catalog-search">Search</label>
+          <input
+            id="catalog-search"
+            class="search__input"
+            type="search"
+            placeholder="Filter by name, surface, or keyword…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <span class="search__count" id="result-count" aria-live="polite"></span>
+        </div>
       </div>
+
+      <noscript>
+        <p class="empty">Enable JavaScript to browse, search, and filter the interactive
+        catalog — or read the full index in the
+        <a href="https://github.com/will-kelly/will-kelly#readme">README</a>.</p>
+      </noscript>
 
       <!-- AGENTS -->
       <div class="shelf" id="agents" data-group="agents">
@@ -113,87 +144,7 @@
           <p>Configured Claude Projects and system-prompt architectures. Open-sourced for
           practitioners, not marketers.</p>
         </div>
-        <div class="grid" data-cat="agents">
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-01</div>
-            <h4>Documentation Health Agent</h4>
-            <p>A Claude Project that audits a knowledge base for stale, orphaned, and duplicated
-            pages, then ranks fixes by cost impact so IT leadership can act on the worst debt first.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Claude Project</dd></div>
-              <div><dt>Output</dt><dd>Prioritized triage report</dd></div>
-              <div><dt>License</dt><dd>MIT</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-02</div>
-            <h4>Knowledge Graph Builder</h4>
-            <p>Turns scattered docs, wikis, and intake forms into a structured client knowledge
-            graph — surfacing the relationships and gaps that flat documentation hides.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Claude Project</dd></div>
-              <div><dt>Output</dt><dd>Entity &amp; relationship map</dd></div>
-              <div><dt>License</dt><dd>MIT</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-03</div>
-            <h4>Content Pipeline Automations</h4>
-            <p>Claude workflows that move an asset from brief to versioned, reviewed, repurposed
-            output — the operational glue that keeps a content system from drifting back to chaos.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Claude workflow set</dd></div>
-              <div><dt>Output</dt><dd>Automated lifecycle steps</dd></div>
-              <div><dt>License</dt><dd>MIT</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-04</div>
-            <h4>Blueprint Packs — Doc Triage &amp; Wiki Health</h4>
-            <p>Ready-to-load Claude Project packs for content ops, documentation triage, and wiki
-            health. Drop-in configurations with use cases and integration notes.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Claude Project packs</dd></div>
-              <div><dt>Output</dt><dd>Configured projects</dd></div>
-              <div><dt>License</dt><dd>MIT</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--ship">On Gumroad</span></dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-05</div>
-            <h4>Prompt Engineering Library</h4>
-            <p>System prompts and few-shot examples distilled from real consulting delivery —
-            reusable building blocks for operations teams standing up their own agents.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Prompt library</dd></div>
-              <div><dt>Output</dt><dd>Reusable prompts</dd></div>
-              <div><dt>License</dt><dd>MIT</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">AGT-06</div>
-            <h4>Custom GPT Governance Playbook</h4>
-            <p>A governance model that prevents AI tool sprawl while preserving practitioner
-            autonomy — the rules that keep an org's agents accountable instead of feral.</p>
-            <dl class="spec">
-              <div><dt>Surface</dt><dd>Governance playbook</dd></div>
-              <div><dt>Output</dt><dd>Policy &amp; guardrails</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
-            </dl>
-          </article>
-
-        </div>
+        <div class="grid" data-cat="agents"></div>
       </div>
 
       <!-- FRAMEWORKS -->
@@ -204,97 +155,7 @@
           <p>Open-source diagnostic frameworks and operating playbooks. The canonical home is the
           <a href="https://github.com/will-kelly/ContentOps">ContentOps</a> repository.</p>
         </div>
-        <div class="grid" data-cat="frameworks">
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-01</div>
-            <h4>30 · 60 · 90-Day Content Ops Plan</h4>
-            <p>A day-by-day playbook for standing up content operations from scratch — at a
-            startup or inside an enterprise.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Phased playbook</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-02</div>
-            <h4>GTM Content Ops Accelerator</h4>
-            <p>Aligns content production to pipeline stages so marketing stops publishing blind and
-            starts feeding the funnel deliberately.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Alignment framework</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-03</div>
-            <h4>Content Lifecycle Checklist</h4>
-            <p>Ensures every asset gets versioned, reviewed, and repurposed — the discipline that
-            turns one-off publishing into a system.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Operating checklist</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-04</div>
-            <h4>Case Study Framework</h4>
-            <p>Extracts a compelling story even when the customer won't share metrics — structure
-            that survives an NDA.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Narrative framework</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-05</div>
-            <h4>Tech Storytelling Strategy Guide</h4>
-            <p>Narrative frameworks that land with technical and executive buyers at the same time
-            — without dumbing either one down.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Strategy guide</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-06</div>
-            <h4>Multi-Generational Messaging Guide</h4>
-            <p>Frames technical complexity for CIO, CTO, and practitioner audiences — one message,
-            three altitudes.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Messaging guide</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-07</div>
-            <h4>CTRL+ALT+SharePoint Methodology</h4>
-            <p>A proprietary governance methodology for taming SharePoint documentation debt —
-            refined across 15+ enterprise deployments.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Governance methodology</dd></div>
-              <div><dt>License</dt><dd>Proprietary</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">FWK-08</div>
-            <h4>Notion Editorial Workflow</h4>
-            <p>A lightweight publishing pipeline built entirely in Notion — intake, brief, review,
-            and ship without a heavyweight CMS.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Workflow blueprint</dd></div>
-              <div><dt>License</dt><dd>CC0-1.0</dd></div>
-            </dl>
-          </article>
-
-        </div>
+        <div class="grid" data-cat="frameworks"></div>
       </div>
 
       <!-- PRODUCTIZED IP -->
@@ -305,53 +166,7 @@
           <p>Pre-built, editable assets packaged for client delivery — the canonical open-source
           versions live in this account; the Gumroad catalog ships the polished editions.</p>
         </div>
-        <div class="grid" data-cat="ip">
-
-          <article class="card" tabindex="0">
-            <div class="card__id">IP-01</div>
-            <h4>AI Pilot Readiness Checklist</h4>
-            <p>Surfaces adoption blockers and governance gaps before a pilot ships — so the pilot
-            doesn't quietly stall in month two.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Diagnostic checklist</dd></div>
-              <div><dt>Channel</dt><dd>Gumroad</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">IP-02</div>
-            <h4>Documentation Debt Audit</h4>
-            <p>A framework that turns vague "our docs are a mess" into a quantified, prioritized
-            liability IT leadership can fund.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Audit framework</dd></div>
-              <div><dt>Channel</dt><dd>Gumroad</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">IP-03</div>
-            <h4>Confluence → Notion Pre-Flight</h4>
-            <p>A migration pre-flight assessment that catches the structural landmines before the
-            content move, not after.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Assessment</dd></div>
-              <div><dt>Channel</dt><dd>Gumroad</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">IP-04</div>
-            <h4>Content Ops Maturity Scorecard</h4>
-            <p>A React-based self-serve diagnostic that scores a team's content operations maturity
-            and points to the next investment.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>React diagnostic</dd></div>
-              <div><dt>Channel</dt><dd>Gumroad</dd></div>
-            </dl>
-          </article>
-
-        </div>
+        <div class="grid" data-cat="ip"></div>
       </div>
 
       <!-- TEMPLATES -->
@@ -362,56 +177,10 @@
           <p>Structured Notion systems a team can adopt on day one — the operating surfaces the
           frameworks above run on.</p>
         </div>
-        <div class="grid" data-cat="templates">
-
-          <article class="card" tabindex="0">
-            <div class="card__id">TPL-01</div>
-            <h4>Content Operations Hub</h4>
-            <p>The central operating surface — everything an editorial team touches, in one linked
-            Notion workspace.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Notion template</dd></div>
-              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">TPL-02</div>
-            <h4>Editorial Calendar &amp; Brief Builder</h4>
-            <p>Plan, brief, and schedule in one place — so writers start from a real brief instead
-            of a blank page.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Notion template</dd></div>
-              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">TPL-03</div>
-            <h4>Consulting Deliverable Tracker</h4>
-            <p>Keeps fractional engagements honest — scope, status, and handoffs visible to client
-            and consultant alike.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Notion template</dd></div>
-              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
-            </dl>
-          </article>
-
-          <article class="card" tabindex="0">
-            <div class="card__id">TPL-04</div>
-            <h4>Client Knowledge Graph</h4>
-            <p>A relational template that captures how a client's people, systems, and docs
-            actually connect — the human-readable twin of the AGT-02 agent.</p>
-            <dl class="spec">
-              <div><dt>Format</dt><dd>Notion template</dd></div>
-              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
-            </dl>
-          </article>
-
-        </div>
+        <div class="grid" data-cat="templates"></div>
       </div>
 
-      <p class="empty" id="empty-state" hidden>No entries on this shelf.</p>
+      <p class="empty" id="empty-state" hidden>No entries match — try a different filter or search.</p>
     </section>
 
     <!-- METHOD -->
