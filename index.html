@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will Kelly — Diagnostic IP &amp; Claude Agents</title>
+  <meta name="description" content="A working catalog of the custom Claude agents, diagnostic frameworks, and productized IP Will Kelly builds for AI enablement, content operations, and documentation health." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to catalog</a>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="mark" href="#top">
+        <span class="mark__id">WK</span>
+        <span class="mark__name">Will Kelly</span>
+      </a>
+      <nav class="topnav" aria-label="Primary">
+        <a href="#catalog">Catalog</a>
+        <a href="#agents">Agents</a>
+        <a href="#method">Method</a>
+        <a href="#record">Record</a>
+      </nav>
+      <button id="theme-toggle" class="toggle" type="button" aria-label="Switch color theme">
+        <span class="toggle__dot" aria-hidden="true"></span>
+        <span class="toggle__label">Theme</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero wrap" id="hero">
+      <p class="eyebrow">AI enablement · Content operations · Diagnostic IP</p>
+      <h1 class="hero__title">Sell the diagnostic,<br />not the solution.</h1>
+      <p class="hero__lede">
+        I build <em>diagnostic frameworks, productized consulting IP, and Claude-powered
+        agents</em> that help enterprise teams fix broken documentation, adopt AI without the
+        theater, and operationalize knowledge at scale. This is the working catalog of that IP —
+        indexed, classified, and ready to deploy.
+      </p>
+      <div class="hero__meta">
+        <div class="fact">
+          <span class="fact__k">Based</span>
+          <span class="fact__v">Northern Virginia</span>
+        </div>
+        <div class="fact">
+          <span class="fact__k">Practice</span>
+          <span class="fact__v">Fractional content ops</span>
+        </div>
+        <div class="fact">
+          <span class="fact__k">Depth</span>
+          <span class="fact__v">15+ yrs enterprise tech</span>
+        </div>
+        <div class="fact">
+          <span class="fact__k">Canonical repo</span>
+          <span class="fact__v"><a href="https://github.com/will-kelly/ContentOps">ContentOps</a></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE AREAS -->
+    <section class="areas wrap" aria-label="Core areas of practice">
+      <article class="area">
+        <span class="area__tag">01 — Diagnose</span>
+        <h3>AI enablement &amp; diagnostics</h3>
+        <p>Structured assessments that surface AI-readiness gaps, adoption blockers, and
+        governance friction — before rollout, not after. No vendor theater.</p>
+      </article>
+      <article class="area">
+        <span class="area__tag">02 — Productize</span>
+        <h3>Consulting IP</h3>
+        <p>Documentation debt audits, readiness checklists, migration playbooks, and maturity
+        scorecards — packaged as repeatable, sellable assets you can drop into an org.</p>
+      </article>
+      <article class="area">
+        <span class="area__tag">03 — Operationalize</span>
+        <h3>Claude agents &amp; blueprints</h3>
+        <p>System prompts, knowledge-graph builders, documentation-health agents, and content
+        pipeline automations — built for practitioners who have to do the work.</p>
+      </article>
+    </section>
+
+    <!-- CATALOG -->
+    <section class="catalog wrap" id="catalog">
+      <div class="section-head">
+        <p class="eyebrow">The index</p>
+        <h2>A catalog of built work</h2>
+        <p class="section-head__note">
+          Every entry carries a classification prefix — <span class="mono">AGT</span> agents,
+          <span class="mono">FWK</span> frameworks, <span class="mono">IP</span> productized
+          assets, <span class="mono">TPL</span> templates. Filter to narrow the shelf.
+        </p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Filter catalog by type">
+        <button class="chip is-active" data-filter="all" type="button">All</button>
+        <button class="chip" data-filter="agents" type="button">Claude agents</button>
+        <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
+        <button class="chip" data-filter="ip" type="button">Productized IP</button>
+        <button class="chip" data-filter="templates" type="button">Templates</button>
+      </div>
+
+      <!-- AGENTS -->
+      <div class="shelf" id="agents" data-group="agents">
+        <div class="shelf__label">
+          <span class="mono">AGT</span>
+          <h3>Claude agents &amp; project blueprints</h3>
+          <p>Configured Claude Projects and system-prompt architectures. Open-sourced for
+          practitioners, not marketers.</p>
+        </div>
+        <div class="grid" data-cat="agents">
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-01</div>
+            <h4>Documentation Health Agent</h4>
+            <p>A Claude Project that audits a knowledge base for stale, orphaned, and duplicated
+            pages, then ranks fixes by cost impact so IT leadership can act on the worst debt first.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Claude Project</dd></div>
+              <div><dt>Output</dt><dd>Prioritized triage report</dd></div>
+              <div><dt>License</dt><dd>MIT</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-02</div>
+            <h4>Knowledge Graph Builder</h4>
+            <p>Turns scattered docs, wikis, and intake forms into a structured client knowledge
+            graph — surfacing the relationships and gaps that flat documentation hides.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Claude Project</dd></div>
+              <div><dt>Output</dt><dd>Entity &amp; relationship map</dd></div>
+              <div><dt>License</dt><dd>MIT</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-03</div>
+            <h4>Content Pipeline Automations</h4>
+            <p>Claude workflows that move an asset from brief to versioned, reviewed, repurposed
+            output — the operational glue that keeps a content system from drifting back to chaos.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Claude workflow set</dd></div>
+              <div><dt>Output</dt><dd>Automated lifecycle steps</dd></div>
+              <div><dt>License</dt><dd>MIT</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-04</div>
+            <h4>Blueprint Packs — Doc Triage &amp; Wiki Health</h4>
+            <p>Ready-to-load Claude Project packs for content ops, documentation triage, and wiki
+            health. Drop-in configurations with use cases and integration notes.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Claude Project packs</dd></div>
+              <div><dt>Output</dt><dd>Configured projects</dd></div>
+              <div><dt>License</dt><dd>MIT</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--ship">On Gumroad</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-05</div>
+            <h4>Prompt Engineering Library</h4>
+            <p>System prompts and few-shot examples distilled from real consulting delivery —
+            reusable building blocks for operations teams standing up their own agents.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Prompt library</dd></div>
+              <div><dt>Output</dt><dd>Reusable prompts</dd></div>
+              <div><dt>License</dt><dd>MIT</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">AGT-06</div>
+            <h4>Custom GPT Governance Playbook</h4>
+            <p>A governance model that prevents AI tool sprawl while preserving practitioner
+            autonomy — the rules that keep an org's agents accountable instead of feral.</p>
+            <dl class="spec">
+              <div><dt>Surface</dt><dd>Governance playbook</dd></div>
+              <div><dt>Output</dt><dd>Policy &amp; guardrails</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+              <div><dt>Status</dt><dd><span class="pill pill--live">Live</span></dd></div>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- FRAMEWORKS -->
+      <div class="shelf" id="method-frameworks" data-group="frameworks">
+        <div class="shelf__label">
+          <span class="mono">FWK</span>
+          <h3>Frameworks &amp; playbooks</h3>
+          <p>Open-source diagnostic frameworks and operating playbooks. The canonical home is the
+          <a href="https://github.com/will-kelly/ContentOps">ContentOps</a> repository.</p>
+        </div>
+        <div class="grid" data-cat="frameworks">
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-01</div>
+            <h4>30 · 60 · 90-Day Content Ops Plan</h4>
+            <p>A day-by-day playbook for standing up content operations from scratch — at a
+            startup or inside an enterprise.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Phased playbook</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-02</div>
+            <h4>GTM Content Ops Accelerator</h4>
+            <p>Aligns content production to pipeline stages so marketing stops publishing blind and
+            starts feeding the funnel deliberately.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Alignment framework</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-03</div>
+            <h4>Content Lifecycle Checklist</h4>
+            <p>Ensures every asset gets versioned, reviewed, and repurposed — the discipline that
+            turns one-off publishing into a system.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Operating checklist</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-04</div>
+            <h4>Case Study Framework</h4>
+            <p>Extracts a compelling story even when the customer won't share metrics — structure
+            that survives an NDA.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Narrative framework</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-05</div>
+            <h4>Tech Storytelling Strategy Guide</h4>
+            <p>Narrative frameworks that land with technical and executive buyers at the same time
+            — without dumbing either one down.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Strategy guide</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-06</div>
+            <h4>Multi-Generational Messaging Guide</h4>
+            <p>Frames technical complexity for CIO, CTO, and practitioner audiences — one message,
+            three altitudes.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Messaging guide</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-07</div>
+            <h4>CTRL+ALT+SharePoint Methodology</h4>
+            <p>A proprietary governance methodology for taming SharePoint documentation debt —
+            refined across 15+ enterprise deployments.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Governance methodology</dd></div>
+              <div><dt>License</dt><dd>Proprietary</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">FWK-08</div>
+            <h4>Notion Editorial Workflow</h4>
+            <p>A lightweight publishing pipeline built entirely in Notion — intake, brief, review,
+            and ship without a heavyweight CMS.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Workflow blueprint</dd></div>
+              <div><dt>License</dt><dd>CC0-1.0</dd></div>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- PRODUCTIZED IP -->
+      <div class="shelf" data-group="ip">
+        <div class="shelf__label">
+          <span class="mono">IP</span>
+          <h3>Productized IP</h3>
+          <p>Pre-built, editable assets packaged for client delivery — the canonical open-source
+          versions live in this account; the Gumroad catalog ships the polished editions.</p>
+        </div>
+        <div class="grid" data-cat="ip">
+
+          <article class="card" tabindex="0">
+            <div class="card__id">IP-01</div>
+            <h4>AI Pilot Readiness Checklist</h4>
+            <p>Surfaces adoption blockers and governance gaps before a pilot ships — so the pilot
+            doesn't quietly stall in month two.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Diagnostic checklist</dd></div>
+              <div><dt>Channel</dt><dd>Gumroad</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">IP-02</div>
+            <h4>Documentation Debt Audit</h4>
+            <p>A framework that turns vague "our docs are a mess" into a quantified, prioritized
+            liability IT leadership can fund.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Audit framework</dd></div>
+              <div><dt>Channel</dt><dd>Gumroad</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">IP-03</div>
+            <h4>Confluence → Notion Pre-Flight</h4>
+            <p>A migration pre-flight assessment that catches the structural landmines before the
+            content move, not after.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Assessment</dd></div>
+              <div><dt>Channel</dt><dd>Gumroad</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">IP-04</div>
+            <h4>Content Ops Maturity Scorecard</h4>
+            <p>A React-based self-serve diagnostic that scores a team's content operations maturity
+            and points to the next investment.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>React diagnostic</dd></div>
+              <div><dt>Channel</dt><dd>Gumroad</dd></div>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- TEMPLATES -->
+      <div class="shelf" data-group="templates">
+        <div class="shelf__label">
+          <span class="mono">TPL</span>
+          <h3>Notion Marketplace templates</h3>
+          <p>Structured Notion systems a team can adopt on day one — the operating surfaces the
+          frameworks above run on.</p>
+        </div>
+        <div class="grid" data-cat="templates">
+
+          <article class="card" tabindex="0">
+            <div class="card__id">TPL-01</div>
+            <h4>Content Operations Hub</h4>
+            <p>The central operating surface — everything an editorial team touches, in one linked
+            Notion workspace.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Notion template</dd></div>
+              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">TPL-02</div>
+            <h4>Editorial Calendar &amp; Brief Builder</h4>
+            <p>Plan, brief, and schedule in one place — so writers start from a real brief instead
+            of a blank page.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Notion template</dd></div>
+              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">TPL-03</div>
+            <h4>Consulting Deliverable Tracker</h4>
+            <p>Keeps fractional engagements honest — scope, status, and handoffs visible to client
+            and consultant alike.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Notion template</dd></div>
+              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
+            </dl>
+          </article>
+
+          <article class="card" tabindex="0">
+            <div class="card__id">TPL-04</div>
+            <h4>Client Knowledge Graph</h4>
+            <p>A relational template that captures how a client's people, systems, and docs
+            actually connect — the human-readable twin of the AGT-02 agent.</p>
+            <dl class="spec">
+              <div><dt>Format</dt><dd>Notion template</dd></div>
+              <div><dt>Channel</dt><dd>Notion Marketplace</dd></div>
+            </dl>
+          </article>
+
+        </div>
+      </div>
+
+      <p class="empty" id="empty-state" hidden>No entries on this shelf.</p>
+    </section>
+
+    <!-- METHOD -->
+    <section class="method wrap" id="method">
+      <div class="section-head">
+        <p class="eyebrow">The stance</p>
+        <h2>Method over tooling</h2>
+      </div>
+      <div class="principles">
+        <blockquote class="principle">
+          <p>AI adoption fails when organizations treat it like a prompt experiment. The real
+          opportunity is building repeatable systems that combine AI, documentation, structured
+          workflows, and operational discipline.</p>
+          <cite>On why pilots stall</cite>
+        </blockquote>
+        <blockquote class="principle">
+          <p>Documentation debt is a <em>data problem</em> masquerading as a technology problem.
+          The fix isn't a new tool — it's governance, metadata discipline, and workflows that
+          force prioritization.</p>
+          <cite>On documentation dysfunction</cite>
+        </blockquote>
+        <blockquote class="principle">
+          <p>Pattern recognition beats vendor theater. The writing cuts through hype to surface
+          what's actually breaking in content ops, knowledge management, and AI adoption.</p>
+          <cite>On the work that matters</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- RECORD -->
+    <section class="record wrap" id="record">
+      <div class="section-head">
+        <p class="eyebrow">Proof points</p>
+        <h2>The record</h2>
+        <p class="section-head__note">15+ years of enterprise technology content — the reps behind
+        the frameworks.</p>
+      </div>
+      <ol class="timeline">
+        <li>
+          <span class="timeline__k mono">Docker</span>
+          <div class="timeline__body">
+            <h4>GTM content operations</h4>
+            <p>Consolidated fragmented output across three teams into a single pipeline —
+            increasing asset reuse <strong>40%</strong>.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__k mono">GDIT / CSRA</span>
+          <div class="timeline__body">
+            <h4>Federal &amp; B2G content strategy</h4>
+            <p>Technical messaging for federal IT — the discipline of getting complex systems past
+            both engineers and program officers.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__k mono">CDW</span>
+          <div class="timeline__body">
+            <h4>Technical writing &amp; architecture</h4>
+            <p>Technical writing and architecture work, plus dozens of bylines across trade
+            publications.</p>
+          </div>
+        </li>
+        <li>
+          <span class="timeline__k mono">Independent</span>
+          <div class="timeline__body">
+            <h4>AI enablement practice</h4>
+            <p>Building Claude Project architectures, adoption-blocker diagnostics, and reusable
+            prompt libraries for operations teams — while shipping a catalog of digital products
+            practitioners can deploy immediately.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- LICENSE -->
+    <section class="license wrap" id="license">
+      <div class="section-head">
+        <p class="eyebrow">Reuse</p>
+        <h2>Built to be used</h2>
+        <p class="section-head__note">Maximum velocity for practitioners. If something is useful,
+        use it.</p>
+      </div>
+      <div class="license__grid">
+        <div class="license__card">
+          <span class="mono">CC0-1.0</span>
+          <h4>No rights reserved</h4>
+          <p>Frameworks, templates, checklists, and diagnostics. Use, fork, remix, commercialize,
+          or adapt — no attribution, no permission.</p>
+        </div>
+        <div class="license__card">
+          <span class="mono">MIT</span>
+          <h4>Permissive</h4>
+          <p>Code, Claude Projects, and technical implementations. Use freely in personal and
+          commercial projects with minimal restrictions.</p>
+        </div>
+        <ul class="license__rules">
+          <li><strong>Client engagement?</strong> Go ahead — no credit required.</li>
+          <li><strong>Selling a productized version?</strong> That's the whole point.</li>
+          <li><strong>Publishing a modified version?</strong> Fine. Attribution is nice, not required.</li>
+          <li><strong>Building a course around these?</strong> Exactly what they're for.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer wrap" id="connect">
+    <div class="footer__lead">
+      <h2>Let's fix the system, not the symptom.</h2>
+      <p>Actively consulting with fractional clients on content ops maturity, documentation debt,
+      and AI readiness.</p>
+    </div>
+    <nav class="footer__links" aria-label="Connect">
+      <a href="https://linkedin.com/in/willkelly"><span class="mono">01</span> LinkedIn</a>
+      <a href="https://willkelly.substack.com"><span class="mono">02</span> Newsletter</a>
+      <a href="https://willkelly.medium.com"><span class="mono">03</span> Medium</a>
+      <a href="https://github.com/will-kelly/ContentOps"><span class="mono">04</span> ContentOps repo</a>
+    </nav>
+    <p class="footer__fine">
+      Northern Virginia · Diagnostic frameworks for enterprise knowledge systems ·
+      <span id="year"></span>
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
