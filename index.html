@@ -97,13 +97,29 @@
         </p>
       </div>
 
-      <div class="filters" role="group" aria-label="Filter catalog by type">
-        <button class="chip is-active" data-filter="all" type="button">All</button>
-        <button class="chip" data-filter="agents" type="button">Claude agents</button>
-        <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
-        <button class="chip" data-filter="ip" type="button">Productized IP</button>
-        <button class="chip" data-filter="templates" type="button">Templates</button>
+      <div class="controls">
+        <div class="filters" role="group" aria-label="Filter catalog by type">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="agents" type="button">Claude agents</button>
+          <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
+          <button class="chip" data-filter="ip" type="button">Productized IP</button>
+          <button class="chip" data-filter="templates" type="button">Templates</button>
+        </div>
+        <div class="search">
+          <label class="search__label" for="catalog-search">Search</label>
+          <input
+            id="catalog-search"
+            class="search__input"
+            type="search"
+            inputmode="search"
+            autocomplete="off"
+            placeholder="Filter the index…  (press /)"
+            aria-label="Search the catalog by keyword"
+          />
+        </div>
       </div>
+
+      <p class="count" id="catalog-count" aria-live="polite"></p>
 
       <!-- AGENTS -->
       <div class="shelf" id="agents" data-group="agents">
@@ -411,7 +427,7 @@
         </div>
       </div>
 
-      <p class="empty" id="empty-state" hidden>No entries on this shelf.</p>
+      <p class="empty" id="empty-state" hidden>No entries match — try a different keyword or filter.</p>
     </section>
 
     <!-- METHOD -->
