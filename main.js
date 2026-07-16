@@ -35,26 +35,74 @@
     });
   }
 
-  /* ---------- catalog filtering ---------- */
+  /* ---------- catalog filtering + search ---------- */
   var chips = Array.prototype.slice.call(document.querySelectorAll(".chip"));
   var shelves = Array.prototype.slice.call(document.querySelectorAll(".shelf"));
+  var cards = Array.prototype.slice.call(document.querySelectorAll(".catalog .card"));
   var emptyState = document.getElementById("empty-state");
+  var searchInput = document.getElementById("catalog-search");
+  var countEl = document.getElementById("catalog-count");
+
+  var activeFilter = "all";
+  var query = "";
+
+  // Precompute lowercased searchable text per card once.
+  cards.forEach(function (card) {
+    card.dataset.text = (card.textContent || "").toLowerCase().replace(/\s+/g, " ");
+  });
+
+  var totalCards = cards.length;
+
+  function applyCatalog() {
+    var q = query.trim().toLowerCase();
+    var visibleCount = 0;
+
+    shelves.forEach(function (shelf) {
+      var typeMatch = activeFilter === "all" ||
+        shelf.getAttribute("data-group") === activeFilter;
+      var shelfHasVisible = false;
+
+      var shelfCards = Array.prototype.slice.call(shelf.querySelectorAll(".card"));
+      shelfCards.forEach(function (card) {
+        var textMatch = !q || card.dataset.text.indexOf(q) !== -1;
+        var show = typeMatch && textMatch;
+        card.classList.toggle("is-hidden", !show);
+        if (show) { shelfHasVisible = true; visibleCount++; }
+      });
+
+      shelf.classList.toggle("is-hidden", !shelfHasVisible);
+    });
+
+    if (emptyState) emptyState.hidden = visibleCount !== 0;
+    if (countEl) {
+      if (!q && activeFilter === "all") {
+        countEl.textContent = totalCards + " entries";
+      } else {
+        countEl.textContent = visibleCount + " / " + totalCards;
+      }
+    }
+  }
 
   chips.forEach(function (chip) {
     chip.addEventListener("click", function () {
-      var filter = chip.getAttribute("data-filter");
-      chips.forEach(function (c) { c.classList.remove("is-active"); });
-      chip.classList.add("is-active");
-
-      var anyVisible = false;
-      shelves.forEach(function (shelf) {
-        var match = filter === "all" || shelf.getAttribute("data-group") === filter;
-        shelf.classList.toggle("is-hidden", !match);
-        if (match) anyVisible = true;
+      activeFilter = chip.getAttribute("data-filter");
+      chips.forEach(function (c) {
+        var on = c === chip;
+        c.classList.toggle("is-active", on);
+        c.setAttribute("aria-pressed", on ? "true" : "false");
       });
-      if (emptyState) emptyState.hidden = anyVisible;
+      applyCatalog();
     });
   });
+
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      query = searchInput.value;
+      applyCatalog();
+    });
+  }
+
+  applyCatalog();
 
   /* ---------- scroll reveal ---------- */
   var revealTargets = Array.prototype.slice.call(

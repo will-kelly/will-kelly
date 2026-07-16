@@ -97,12 +97,26 @@
         </p>
       </div>
 
-      <div class="filters" role="group" aria-label="Filter catalog by type">
-        <button class="chip is-active" data-filter="all" type="button">All</button>
-        <button class="chip" data-filter="agents" type="button">Claude agents</button>
-        <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
-        <button class="chip" data-filter="ip" type="button">Productized IP</button>
-        <button class="chip" data-filter="templates" type="button">Templates</button>
+      <div class="controls">
+        <div class="filters" role="group" aria-label="Filter catalog by type">
+          <button class="chip is-active" data-filter="all" type="button">All</button>
+          <button class="chip" data-filter="agents" type="button">Claude agents</button>
+          <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
+          <button class="chip" data-filter="ip" type="button">Productized IP</button>
+          <button class="chip" data-filter="templates" type="button">Templates</button>
+        </div>
+        <div class="search">
+          <label class="search__label" for="catalog-search">Search</label>
+          <input
+            id="catalog-search"
+            class="search__input"
+            type="search"
+            placeholder="Search titles, descriptions, specs…"
+            autocomplete="off"
+            aria-describedby="catalog-count"
+          />
+          <span class="search__count mono" id="catalog-count" role="status" aria-live="polite"></span>
+        </div>
       </div>
 
       <!-- AGENTS -->
