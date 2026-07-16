@@ -97,12 +97,25 @@
         </p>
       </div>
 
-      <div class="filters" role="group" aria-label="Filter catalog by type">
-        <button class="chip is-active" data-filter="all" type="button">All</button>
-        <button class="chip" data-filter="agents" type="button">Claude agents</button>
-        <button class="chip" data-filter="frameworks" type="button">Frameworks</button>
-        <button class="chip" data-filter="ip" type="button">Productized IP</button>
-        <button class="chip" data-filter="templates" type="button">Templates</button>
+      <div class="controls">
+        <div class="filters" role="group" aria-label="Filter catalog by type">
+          <button class="chip is-active" data-filter="all" type="button">All <span class="chip__n" data-count="all"></span></button>
+          <button class="chip" data-filter="agents" type="button">Claude agents <span class="chip__n" data-count="agents"></span></button>
+          <button class="chip" data-filter="frameworks" type="button">Frameworks <span class="chip__n" data-count="frameworks"></span></button>
+          <button class="chip" data-filter="ip" type="button">Productized IP <span class="chip__n" data-count="ip"></span></button>
+          <button class="chip" data-filter="templates" type="button">Templates <span class="chip__n" data-count="templates"></span></button>
+        </div>
+        <div class="search">
+          <label class="search__label" for="catalog-search">Search</label>
+          <input
+            id="catalog-search"
+            class="search__input"
+            type="search"
+            placeholder="Filter by keyword — e.g. audit, Notion, governance"
+            autocomplete="off"
+            aria-label="Search the catalog by keyword"
+          />
+        </div>
       </div>
 
       <!-- AGENTS -->
@@ -411,7 +424,8 @@
         </div>
       </div>
 
-      <p class="empty" id="empty-state" hidden>No entries on this shelf.</p>
+      <p class="tally mono" id="tally" aria-live="polite" hidden></p>
+      <p class="empty" id="empty-state" hidden>No entries match — <button type="button" class="empty__reset" id="empty-reset">clear filters</button>.</p>
     </section>
 
     <!-- METHOD -->

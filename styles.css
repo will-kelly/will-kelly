@@ -206,7 +206,11 @@ h1, h2, h3, h4 { font-weight: 400; text-wrap: balance; margin: 0; }
 /* ---------- catalog ---------- */
 .catalog { padding: clamp(3rem, 7vw, 5.5rem) 0; border-top: 1px solid var(--line-soft); }
 
-.filters { display: flex; flex-wrap: wrap; gap: .6rem; margin-bottom: 2.5rem; }
+.controls {
+  display: flex; align-items: flex-end; justify-content: space-between;
+  flex-wrap: wrap; gap: 1.2rem 1.5rem; margin-bottom: 2.5rem;
+}
+.filters { display: flex; flex-wrap: wrap; gap: .6rem; }
 .chip {
   font-family: var(--mono); font-size: .78rem; letter-spacing: .02em;
   background: transparent; border: 1px solid var(--line); color: var(--ink-soft);
@@ -215,6 +219,34 @@ h1, h2, h3, h4 { font-weight: 400; text-wrap: balance; margin: 0; }
 }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
 .chip.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.chip__n { opacity: .6; font-size: .72rem; }
+.chip.is-active .chip__n { opacity: .8; }
+
+.search { display: flex; flex-direction: column; gap: .35rem; flex: 0 1 22rem; min-width: 15rem; }
+.search__label {
+  font-family: var(--mono); font-size: .64rem; letter-spacing: .12em;
+  text-transform: uppercase; color: var(--ink-faint);
+}
+.search__input {
+  font-family: var(--mono); font-size: .82rem; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line);
+  border-radius: 100px; padding: .55rem 1rem; width: 100%;
+  transition: border-color .18s ease, box-shadow .18s ease;
+}
+.search__input::placeholder { color: var(--ink-faint); }
+.search__input:focus {
+  outline: none; border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 18%, transparent);
+}
+
+.tally {
+  font-size: .72rem; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 2rem 0 0; text-align: right;
+}
+.empty__reset {
+  font: inherit; color: var(--accent); background: none; border: none;
+  padding: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+}
 
 .shelf { margin-top: clamp(2.5rem, 6vw, 4rem); scroll-margin-top: 5rem; }
 .shelf__label {
