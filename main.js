@@ -58,7 +58,7 @@
 
   /* ---------- scroll reveal ---------- */
   var revealTargets = Array.prototype.slice.call(
-    document.querySelectorAll(".area, .card, .principle, .timeline li, .license__card, .license__rules")
+    document.querySelectorAll(".area, .card, .principle, .timeline li, .license__card, .license__rules, .agent, .ledger__col, .crosslink__card, .prose p")
   );
   revealTargets.forEach(function (el) { el.classList.add("reveal"); });
 
