@@ -74,7 +74,6 @@ This GitHub account documents applied generative AI work across:
 - **Diagnostic frameworks** – Self-serve tools for assessing content ops maturity, documentation health, and AI readiness
 - **Prompt libraries** – System prompts, few-shot examples, and Claude Project configurations built from consulting work
 - **Operationalized workflows** – Content pipelines, knowledge graphs, and governance models packaged for reuse
-- **Case studies and lessons** – Real patterns from standing up content systems at Docker, GDIT, CDW, and emerging tech companies
 
 The ContentOps repository is the canonical home for all open-source frameworks, playbooks, and templates.
 
