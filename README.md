@@ -1,155 +1,69 @@
 # Will Kelly
+# Will Kelly
 
-**Technical content strategist focused on AI enablement** | Fractional content operations consultant | Diagnostic frameworks for enterprise knowledge systems
+**Content operations, AI enablement, and technical marketing for organizations that need more than a prompt and a prayer.**
 
-Based in Northern Virginia | [LinkedIn](https://linkedin.com/in/willkelly) | [Newsletter](https://willkelly.substack.com) | [Medium](https://willkelly.medium.com)
+I build practical systems for turning expertise into credible, reusable content: governed AI workflows, quality gates, evidence checks, messaging operations, and the operating models around them.
 
----
+[LinkedIn](https://linkedin.com/in/willkelly) · [Newsletter](https://willkelly.substack.com) · [Website](https://willkelly.com)
 
-## What I build
+## Featured: All Day AI, October 22, 2026 (Coming Soon!)
 
-I create **diagnostic frameworks, productized consulting IP, and Claude-powered workflows** that help enterprise organizations fix broken documentation, adopt AI pragmatically, and operationalize knowledge at scale.
+> **Fear, loathing, and content pipelines**  
+> A talk about the gap between “we have AI” and “this actually works in production.”
 
-My work targets **content ops leads, IT managers, fractional consultants, and CIOs/CTOs** who need to move past pilot projects and into sustainable practices.
+I’ll be presenting at **All Day AI on October 22, 2026**. The supporting repository, [fear-loathing-and-content-pipelines](https://github.com/will-kelly/fear-loathing-and-content-pipelines), is where I’m collecting the practical examples, working notes, and artifacts behind the session.
 
-### Three core areas
+The subject is not how to generate more content. It is how to create a content system that can retain judgment, expose uncertainty, enforce standards, and survive contact with real editorial work.
 
-**AI enablement and diagnostics**  
-Structured assessment frameworks that surface AI readiness gaps, adoption blockers, and governance friction without the vendor theater. Grounded in 15+ years of enterprise tech experience.
+## Content pipeline samples
 
-**Productized consulting IP**  
-Documentation debt audits, AI readiness checklists, Notion migration playbooks, and content ops maturity scorecards—packaged as repeatable, sellable assets on Gumroad and Notion Marketplace.
+These are public working samples, not speculative product pages. Each demonstrates a distinct part of an AI-enabled content operating system.
 
-**Claude project blueprints and prompt engineering**  
-System prompts, knowledge graph builders, documentation health agents, and content pipeline automations designed for practitioners, not marketers. Open-sourced in the [ContentOps](https://github.com/will-kelly/ContentOps) repository.
+| Sample | What it demonstrates |
+|---|---|
+| [Cleartext](https://github.com/will-kelly/Cleartext-Content-Pipeline) | A voice-disciplined B2B writing environment with configurable rules packs and quality gates. |
+| [E-E-A-T Content Pipeline](https://github.com/will-kelly/EEAT-Content-Pipeline) | A five-stage drafting and credibility workflow that treats evidence and specificity as hard editorial requirements. |
+| [Campaign Message Engine](https://github.com/will-kelly/campaign-message-engine) | A system for adapting one core campaign argument across six channels without flattening the voice or losing the point. |
+| [Content Evidence Auditor](https://github.com/will-kelly/content-evidence-auditor) | An editorial agent that audits claims, stale statistics, weak sources, and overpromising before publication. |
+| [ContentOps](https://github.com/will-kelly/ContentOps) | Open frameworks, playbooks, templates, and checklists for building a functional content operation. |
 
----
+## What I work on
 
-## Featured frameworks and products
+- **AI content operations:** Designing the intake, handoffs, governance, QA, and human review that make AI useful beyond an isolated drafting session.
+- **Technical and product marketing:** Translating complicated technology into content and messaging that technical buyers and executives can both trust.
+- **Knowledge and collaboration systems:** Fixing the structures, standards, and workflows behind documentation, wikis, and institutional knowledge.
+- **Editorial credibility:** Building checks for evidence quality, specificity, claim support, and voice so “AI-assisted” does not become “smoothly unconvincing.”
 
-### Open source (ContentOps repository)
+## The operating view
 
-- **30-60-90-Day Content Ops Plan** – Day-by-day playbook for standing up content operations at startups or enterprises
-- **GTM Content Ops Accelerator Framework** – Aligns content production to pipeline stages so marketing isn't publishing blind
-- **Content Lifecycle Checklist** – Ensures every asset gets versioned, reviewed, and repurposed
-- **Case Study Framework** – Extracts a compelling story even when customers won't share metrics
-- **Tech Storytelling Strategy Guide** – Narrative frameworks that land with both technical and executive buyers
-- **Custom GPT governance playbook** – Prevents AI tool sprawl while maintaining practitioner autonomy
-- **Multi-generational messaging guide** – Frames technical complexity for CIO/CTO/practitioner audiences
-- **Notion editorial workflow** – Lightweight publishing pipeline built entirely in Notion
+Most AI content problems start before the model produces a sentence.
 
-### Gumroad products (productized IP)
+The request is vague. The audience is undefined. The source material is weak. Product claims drift. SMEs are handed a nearly finished draft and asked to bless it. Then everyone wonders why the output sounds generic or cannot survive scrutiny.
 
-- AI pilot readiness checklist
-- Documentation debt audit framework
-- Confluence-to-Notion migration pre-flight assessment
-- Claude Project blueprint packs (content ops, doc triage, wiki health)
-- Content ops maturity scorecard (React-based diagnostic)
+A better model is:
 
-### Notion Marketplace templates
+`intake → evidence → brief → draft → quality gate → review → approved source → reuse`
 
-- Content operations hub
-- Editorial calendar and brief builder
-- Consulting deliverable tracker
-- Client knowledge graph
+The point is not to automate editorial judgment out of existence. It is to give judgment a clearer place to operate, with fewer preventable failures reaching the end of the process.
 
----
+## Other useful work
 
-## Philosophy
+- [Content Ops Diagnostic Project](https://github.com/will-kelly/content-ops-diagnostic-project)
+- [Citation Desk](https://github.com/will-kelly/citation-desk)
+- [Source Desk Agent](https://github.com/will-kelly/source-desk-agent)
+- [DevSecOps Playbook](https://github.com/will-kelly/DevSecOps-Playbook)
+- [CTRL+ALT Collaboration Concept](https://github.com/will-kelly/CTRL-ALT-Collaboration-Concept)
 
-**Sell the diagnostic, not the solution.**
+## Working with these repositories
 
-AI adoption fails when organizations treat it like a prompt experiment. The real opportunity is building repeatable systems that combine AI, documentation, structured workflows, and operational discipline.
+The public repositories are designed to be inspected, adapted, and challenged. Some are full frameworks; others are deliberately narrow examples of one control point in a larger system.
 
-Documentation debt is often a **data problem** masquerading as a technology problem. The fix isn't a new tool—it's governance, metadata discipline, and workflows that force prioritization.
-
-**Pattern recognition beats vendor theater.** My writing cuts through hype to surface what's actually breaking in content operations, knowledge management, and AI adoption.
-
----
-
-## What's in this repository
-
-This GitHub account documents applied generative AI work across:
-
-- **Diagnostic frameworks** – Self-serve tools for assessing content ops maturity, documentation health, and AI readiness
-- **Prompt libraries** – System prompts, few-shot examples, and Claude Project configurations built from consulting work
-- **Operationalized workflows** – Content pipelines, knowledge graphs, and governance models packaged for reuse
-
-The ContentOps repository is the canonical home for all open-source frameworks, playbooks, and templates.
-
----
-
-## Experience and proof points
-
-**15+ years in enterprise technology content:**
-- Built GTM content operations at Docker (standout proof point: consolidated fragmented output across three teams into a single pipeline, increasing asset reuse 40%)
-- Content strategy roles at GDIT/CSRA (B2G/federal IT technical messaging)
-- Technical writing and architecture at CDW, plus dozens of bylines in trade publications
-
-**Specialist in documentation dysfunction:**
-- Developed proprietary CTRL+ALT+SharePoint governance methodology (15+ deployments)
-- Created documentation debt diagnostic that surfaces cost impact and prioritization urgently for IT leadership
-- Consulted on Confluence-to-Notion migrations, content intake systems, and editorial governance
-
-**AI enablement practitioner:**
-- Building Claude Project architectures for content production, knowledge ops, and consulting delivery
-- Designing diagnostics that surface adoption blockers before rollout (not after)
-- Created reusable prompt engineering libraries and system prompts for operations teams
-
----
-
-## Current focus
-
-Building and selling a catalog of digital products—diagnostic checklists, Notion templates, and Claude Project blueprints—that practitioners can drop into their orgs immediately. Anti-vendor-theater positioning: these are tools for people who actually have to do the work.
-
-Actively consulting with fractional clients on content ops maturity, documentation debt, and AI readiness. Building the proof points that land the next full-time role in AI enablement, content strategy, or technical marketing.
-
----
-
-## How to use this repository
-
-**Starting a content ops practice?**  
-Fork the [ContentOps](https://github.com/will-kelly/ContentOps) repository, pick the framework you need, and adapt.
-
-**Looking for prompt libraries or Claude Project blueprints?**  
-Browse the project folders here. Most are documented with use cases and integration notes.
-
-**Interested in the diagnostic frameworks?**  
-The Gumroad catalog has pre-built, editable versions packaged for client delivery. The open-source versions in this repository are the canonical source.
-
-**Building your own content operations system?**  
-Start with the 30-60-90-Day plan, then layer in the intake form, lifecycle checklist, and editorial workflow. Everything is designed to work together.
-
----
+If you are evaluating content operations, AI enablement, technical marketing, or knowledge systems work, start with the pipeline samples above. They show how I think about the work when the real requirement is not “make content faster,” but “make the operation more reliable.”
 
 ## Connect
 
-- **Newsletter (subscriber acquisition focus):** [Will's Newsletter](https://willkelly.substack.com)
-- **LinkedIn (primary job search channel):** [linkedin.com/in/willkelly](https://linkedin.com/in/willkelly)
-- **Medium blog:** [willkelly.medium.com](https://willkelly.medium.com)
-- **GitHub:** You're here.
+- [LinkedIn](https://linkedin.com/in/willkelly)
+- [Newsletter](https://willkelly.substack.com)
+- [willkelly.com](https://willkelly.com)
 
----
-
-## License and reuse
-
-All repositories in this account operate under one of two licensing models:
-
-**CC0-1.0 (no rights reserved)**  
-Frameworks, templates, checklists, and diagnostic tools. Use, fork, remix, commercialize, or adapt without attribution or permission. Includes: ContentOps playbook, Notion templates, prompt libraries, and educational materials.
-
-**MIT License (permissive)**  
-Code repositories, Claude Projects, and technical implementations. Use freely in personal and commercial projects with minimal restrictions. Includes: prompt engineering libraries, workflow code, and system prompt repositories.
-
-### Reuse guidelines
-
-- **Using these in a client engagement?** Go ahead. No credit required, no permission needed.
-- **Selling a productized version?** Absolutely. That's the whole point.
-- **Publishing a modified version?** Fine. Attribution is nice but not required.
-- **Building a course or training around these frameworks?** Perfect. That's exactly what they're designed for.
-
-The goal is maximum velocity for practitioners. If something is useful, use it. If you improve it, consider contributing back, but no obligation.
-
----
-
-*Last updated: May 2026*
