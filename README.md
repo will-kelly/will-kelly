@@ -1,5 +1,4 @@
 # Will Kelly
-# Will Kelly
 
 **Content operations, AI enablement, and technical marketing for organizations that need more than a prompt and a prayer.**
 
