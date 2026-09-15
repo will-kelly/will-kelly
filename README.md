@@ -5,7 +5,7 @@
 
 I build practical systems for turning expertise into credible, reusable content: governed AI workflows, quality gates, evidence checks, messaging operations, and the operating models around them.
 
-[LinkedIn](https://linkedin.com/in/willkelly) · [Newsletter](https://willkelly.substack.com) · [Website](https://willkelly.com)
+[LinkedIn](https://linkedin.com/in/willkelly) · [Newsletter](https://willkelly.substack.com) · 
 
 ## Featured: All Day AI, October 22, 2026 (Coming Soon!)
 
@@ -65,5 +65,4 @@ If you are evaluating content operations, AI enablement, technical marketing, or
 
 - [LinkedIn](https://linkedin.com/in/willkelly)
 - [Newsletter](https://willkelly.substack.com)
-- [willkelly.com](https://willkelly.com)
 
