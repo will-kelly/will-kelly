@@ -6,9 +6,9 @@ I build practical systems for turning expertise into credible, reusable content:
 
 [LinkedIn](https://linkedin.com/in/willkelly) · [Newsletter](https://willkelly.substack.com) · 
 
-## Featured: All Day AI, October 22, 2026 (Coming Soon!)
+## Featured: All Day AI, October 22, 2026
 
-> **Fear, loathing, and content pipelines**  
+> **Fear, loathing, and AI content pipelines**  
 > A talk about the gap between “we have AI” and “this actually works in production.”
 
 I’ll be presenting at **All Day AI on October 22, 2026**. The supporting repository, [fear-loathing-and-content-pipelines](https://github.com/will-kelly/fear-loathing-and-content-pipelines), is where I’m collecting the practical examples, working notes, and artifacts behind the session.
