@@ -11,7 +11,7 @@ I build practical systems for turning expertise into credible, reusable content:
 > **Fear, loathing, and AI content pipelines**  
 > A talk about the gap between “we have AI” and “this actually works in production.”
 
-I’ll be presenting at **All Day AI on October 22, 2026**. The supporting repository, [fear-loathing-and-content-pipelines](https://github.com/will-kelly/fear-loathing-and-content-pipelines), is where I’m collecting the practical examples, working notes, and artifacts behind the session.
+I presented at **All Day AI on October 22, 2026**. The supporting repository, [fear-loathing-and-content-pipelines](https://github.com/will-kelly/fear-loathing-and-content-pipelines), is where I’m collecting the practical examples, working notes, and artifacts behind the session.
 
 The subject is not how to generate more content. It is how to create a content system that can retain judgment, expose uncertainty, enforce standards, and survive contact with real editorial work.
 
