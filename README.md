@@ -51,7 +51,6 @@ The point is not to automate editorial judgment out of existence. It is to give 
 - [Content Ops Diagnostic Project](https://github.com/will-kelly/content-ops-diagnostic-project)
 - [Citation Desk](https://github.com/will-kelly/citation-desk)
 - [Source Desk Agent](https://github.com/will-kelly/source-desk-agent)
-- [DevSecOps Playbook](https://github.com/will-kelly/DevSecOps-Playbook)
 - [CTRL+ALT Collaboration Concept](https://github.com/will-kelly/CTRL-ALT-Collaboration-Concept)
 
 ## Working with these repositories
